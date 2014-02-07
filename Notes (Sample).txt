@@ -1,0 +1,71 @@
+git init
+- creates a new Git repository
+
+git status
+- tells us the state of our repository
+
+.gitignore
+- tells Git what it should completely ignore
+
+git add
+- track specific files or folders
+- -p lets us selectively stage changes
+
+git commit
+- commits changes to the repository
+- -p lets us selectively commit changes
+
+git log
+- shows us all the commits that were made
+- --oneline shows the commits in one single line
+
+git diff
+- shows us what's changed between two commits
+
+git branch
+- lists all branches in repository
+- <name> creates a new branch
+
+git checkout
+- <branch> switches to that branch
+- moves HEAD around the repository, to other commits
+
+git merge
+- <branch> merge changes on that branch into your current branch
+
+git revert
+- undo changes made in a particular commit
+
+git reset
+- rolls HEAD back to specified state
+- --hard resets the working directory and staging area
+
+Commit
+- a snapshot of a specific state of our repository
+- each commit should be a meaningful change
+- each commit has an ID associated with it
+
+Commit messages
+- describe the changes we've made to code
+- answer the question: "Why is this necessary?"
+- follow the 50/72 rule
+
+Basic Git workflow
+1. Change
+2. Stage
+3. Commit
+
+Patch mode
+- lets us split up big changes into smaller pieces
+
+Branches
+- parallel universes where we can work on different things in isolation
+- not automatically updated, if left alone
+- specific commits with a label attached to them
+
+Merge conflicts
+- occurs when we make changes on different branches that Git cannot automatically combine
+- we manually edit the file to resolve any conflicts
+
+HEAD
+- label for the commit we are currently at
