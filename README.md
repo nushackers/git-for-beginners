@@ -1,7 +1,8 @@
 Git for Beginners
 =================
 
-Git for Beginners workshop, organized by NUS Hackers as part of hackerschool.
+Git for Beginners workshop, organized by [NUS Hackers](http://nushackers.org/) as part of [hackerschool](http://school.nushackers.org/).
+
 To get these files:
 ` git clone https://github.com/nushackers/git-for-beginners.git`
 
